@@ -5,11 +5,11 @@
     "description": "",
     "version": 1,
     "workflowApiVersion": 1.0,
-    "createdDate": "2025-02-13T02:15:38",
-    "modifiedDate": "2025-02-13T02:15:38",
+    "createdDate": "2025-02-09T06:31:17.663",
+    "modifiedDate": "2025-02-09T06:43:12.69",
     "activities": [
         {
-            "id": "da0bc39a-3f76-4490-9fc5-a92ccb760681",
+            "id": "4c6aa363-1082-42aa-8c60-35f74117aab8",
             "key": "STOWAIT-1",
             "name": "Einstein STO - 4 Hours",
             "description": "",
@@ -146,7 +146,7 @@
             }
         },
         {
-            "id": "a4161eb4-abe1-41ad-8a75-688e1af0e980",
+            "id": "62446934-e1b3-4473-b226-91ac40d1838f",
             "key": "EMAILV2-1",
             "name": "",
             "description": "",
@@ -279,7 +279,7 @@
             }
         },
         {
-            "id": "06351cc2-3de3-4d77-9b55-bb258f1e3ec4",
+            "id": "61a1e56a-da04-4c40-bfcf-96e5c713c049",
             "key": "WAITBYDURATION-1",
             "name": "1 day",
             "description": "",
@@ -359,7 +359,7 @@
     ],
     "triggers": [
         {
-            "id": "a425c6cf-f838-4399-b2b5-faf58f2478aa",
+            "id": "784fed4f-7844-4b53-b8c4-b9c454be8096",
             "key": "TRIGGER",
             "name": "TRIGGER",
             "description": "",
