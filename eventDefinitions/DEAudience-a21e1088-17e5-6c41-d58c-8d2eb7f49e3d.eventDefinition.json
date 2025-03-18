@@ -1,0 +1,58 @@
+{
+    "id": "e94d1f94-169b-4681-8751-51ae38c2f6f2",
+    "type": "EmailAudience",
+    "name": "Journey 2",
+    "description": "",
+    "createdDate": "2025-02-09T06:57:40.76",
+    "createdBy": 737366723,
+    "modifiedDate": "2025-02-09T06:57:40.76",
+    "modifiedBy": 737366723,
+    "mode": "Production",
+    "eventDefinitionKey": "DEAudience-a21e1088-17e5-6c41-d58c-8d2eb7f49e3d",
+    "dataExtensionId": "66a09324-11e6-ef11-ba84-f40343e86d98",
+    "dataExtensionName": "All Contacts",
+    "sourceApplicationExtensionId": "97e942ee-6914-4d3d-9e52-37ecb71f79ed",
+    "filterDefinitionId": "00000000-0000-0000-0000-000000000000",
+    "filterDefinitionTemplate": "",
+    "iconUrl": "/images/icon-data-extension.svg",
+    "arguments": {
+        "serializedObjectType": 3,
+        "eventDefinitionId": "e94d1f94-169b-4681-8751-51ae38c2f6f2",
+        "eventDefinitionKey": "DEAudience-a21e1088-17e5-6c41-d58c-8d2eb7f49e3d",
+        "dataExtensionId": "66a09324-11e6-ef11-ba84-f40343e86d98",
+        "criteria": "",
+        "useHighWatermark": false,
+        "automationId": "176962f1-6a71-41ea-8a67-4333ba78ba29"
+    },
+    "configurationArguments": {
+        "unconfigured": false
+    },
+    "metaData": {
+        "criteriaDescription": "",
+        "scheduleFlowMode": "recurring"
+    },
+    "schedule": {
+        "startDateTime": "2025-02-17T00:00:00",
+        "endDateTime": "2075-02-16T00:00:00",
+        "timeZone": "W. Europe Standard Time",
+        "occurrences": 13046,
+        "endType": "EndDate",
+        "frequency": "Weekly",
+        "recurrencePattern": "ByDay",
+        "interval": 1,
+        "sunday": false,
+        "monday": true,
+        "tuesday": true,
+        "wednesday": true,
+        "thursday": true,
+        "friday": true,
+        "saturday": false
+    },
+    "interactionCount": 1,
+    "isVisibleInPicker": false,
+    "isPlatformObject": false,
+    "category": "Audience",
+    "publishedInteractionCount": 0,
+    "automationId": "0a7e4ad7-93bc-413c-928e-91b3a81824a9",
+    "disableDEDataLogging": false
+}

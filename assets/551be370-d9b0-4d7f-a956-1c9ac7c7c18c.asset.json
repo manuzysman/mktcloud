@@ -1,0 +1,56 @@
+{
+    "id": 143609,
+    "customerKey": "551be370-d9b0-4d7f-a956-1c9ac7c7c18c",
+    "objectID": "f0467283-d998-4cdd-93d2-717556a61e93",
+    "assetType": {
+        "id": 28,
+        "name": "png",
+        "displayName": "Image"
+    },
+    "fileProperties": {
+        "fileName": "ideabulut-logo.png",
+        "extension": "png",
+        "fileSize": 81401,
+        "fileCreatedDate": "2025-01-29T17:58:31.4252696-06:00",
+        "width": 566,
+        "height": 441,
+        "publishedURL": "https://image.s51.sfmc-content.com/lib/fe3411737364047f721573/m/1/f0467283-d998-4cdd-93d2-717556a61e93.png"
+    },
+    "name": "ideabulut-logo.png",
+    "owner": {
+        "id": 737342407,
+        "email": "tugce@eduhub.solutions",
+        "name": "Tu\u011f\u00e7e \u015eirin",
+        "userId": "737342407"
+    },
+    "createdDate": "2025-01-29T17:58:31.427-06:00",
+    "createdBy": {
+        "id": 737342407,
+        "email": "tugce@eduhub.solutions",
+        "name": "Tu\u011f\u00e7e \u015eirin",
+        "userId": "737342407"
+    },
+    "modifiedDate": "2025-01-29T17:58:31.427-06:00",
+    "modifiedBy": {
+        "id": 737342407,
+        "email": "tugce@eduhub.solutions",
+        "name": "Tu\u011f\u00e7e \u015eirin",
+        "userId": "737342407"
+    },
+    "enterpriseId": 536002713,
+    "memberId": 536002713,
+    "status": {
+        "id": 2,
+        "name": "Published"
+    },
+    "thumbnail": {
+        "thumbnailUrl": "/v1/assets/143609/thumbnail"
+    },
+    "category": {
+        "id": 71218,
+        "name": "Subfolder1",
+        "parentId": 11269
+    },
+    "availableViews": [],
+    "modelVersion": 2
+}
