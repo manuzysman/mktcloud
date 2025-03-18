@@ -1,0 +1,172 @@
+{
+    "id": 145226,
+    "customerKey": "7c83bd87-5c0f-42c2-9b7b-bc3fb00151d4",
+    "objectID": "155600f8-2cc4-495a-9478-3586452c5ac7",
+    "contentType": "application/vnd.etmc.email.Message; kind=paste",
+    "assetType": {
+        "id": 208,
+        "name": "htmlemail",
+        "displayName": "HTML Email"
+    },
+    "name": "Welcome Email 1",
+    "description": "",
+    "owner": {
+        "id": 737342407,
+        "email": "tugce@eduhub.solutions",
+        "name": "Tu\u011f\u00e7e \u015eirin",
+        "userId": "737342407"
+    },
+    "createdDate": "2025-02-07T04:47:26.787-06:00",
+    "createdBy": {
+        "id": 737342407,
+        "email": "tugce@eduhub.solutions",
+        "name": "Tu\u011f\u00e7e \u015eirin",
+        "userId": "737342407"
+    },
+    "modifiedDate": "2025-02-07T04:47:26.787-06:00",
+    "modifiedBy": {
+        "id": 737342407,
+        "email": "tugce@eduhub.solutions",
+        "name": "Tu\u011f\u00e7e \u015eirin",
+        "userId": "737342407"
+    },
+    "enterpriseId": 536002713,
+    "memberId": 536007311,
+    "status": {
+        "id": 1,
+        "name": "Draft"
+    },
+    "thumbnail": {
+        "thumbnailUrl": "/v1/assets/145226/thumbnail"
+    },
+    "category": {
+        "id": 65641,
+        "name": "Content Builder",
+        "parentId": 0
+    },
+    "views": {
+        "subjectline": {
+            "contentType": "application/vnd.etmc.email.View; kind=subjectline",
+            "content": "Welcome Email Template - 1",
+            "meta": {},
+            "availableViews": [],
+            "data": {
+                "email": {
+                    "options": {
+                        "generateFrom": ""
+                    }
+                }
+            },
+            "modelVersion": 2
+        },
+        "preheader": {
+            "availableViews": [],
+            "data": {
+                "email": {
+                    "options": {
+                        "generateFrom": ""
+                    }
+                }
+            },
+            "modelVersion": 2
+        },
+        "html": {
+            "content": "<a href=\"%%profile_center_url%%\" alias=\"Update Profile\">Update Profile</a><a href=\"%%profile_center_url%%\" alias=\"Update Profile\">Update Profile</a><html>\n  <head>\n    \n  </head>\n  <body>\n    Hello world!\n     The recommended format for the physical mailing address in the TEXT version of your email is the following: This email was sent by: %%Member_Busname%% %%Member_Addr%% %%Member_City%%, %%Member_State%%, %%Member_PostalCode%%, %%Member_Country%% F\n    \n  </body>\n</html>",
+            "availableViews": [],
+            "data": {
+                "email": {
+                    "options": {
+                        "generateFrom": ""
+                    }
+                }
+            },
+            "modelVersion": 2
+        },
+        "text": {
+            "availableViews": [],
+            "data": {
+                "email": {
+                    "options": {
+                        "generateFrom": "html"
+                    }
+                }
+            },
+            "generateFrom": "html",
+            "modelVersion": 2
+        },
+        "viewAsAWebPage": {
+            "availableViews": [],
+            "data": {
+                "email": {
+                    "options": {
+                        "generateFrom": ""
+                    }
+                }
+            },
+            "modelVersion": 2
+        },
+        "subscriptioncenter": {
+            "availableViews": [],
+            "data": {
+                "email": {
+                    "options": {
+                        "generateFrom": ""
+                    }
+                }
+            },
+            "modelVersion": 2
+        },
+        "forwardHTML": {
+            "availableViews": [],
+            "data": {
+                "email": {
+                    "options": {
+                        "generateFrom": ""
+                    }
+                }
+            },
+            "modelVersion": 2
+        },
+        "forwardText": {
+            "availableViews": [],
+            "data": {
+                "email": {
+                    "options": {
+                        "generateFrom": ""
+                    }
+                }
+            },
+            "modelVersion": 2
+        }
+    },
+    "availableViews": [
+        "subjectline",
+        "preheader",
+        "html",
+        "text",
+        "viewAsAWebPage",
+        "subscriptioncenter",
+        "forwardHTML",
+        "forwardText"
+    ],
+    "data": {
+        "email": {
+            "options": {
+                "characterEncoding": "utf-8"
+            },
+            "legacy": {
+                "legacyId": 32918,
+                "legacyKey": "7c83bd87-5c0f-42c2-9b7b-bc3fb00151d4",
+                "legacyType": "email",
+                "legacyCategoryId": 65644
+            }
+        }
+    },
+    "legacyData": {
+        "legacyId": 32918,
+        "legacyKey": "7c83bd87-5c0f-42c2-9b7b-bc3fb00151d4",
+        "legacyType": "email",
+        "legacyCategoryId": 65644
+    },
+    "modelVersion": 2
+}
