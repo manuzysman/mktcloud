@@ -1,0 +1,97 @@
+{
+    "name": "Segments",
+    "description": "",
+    "key": "bfb90a77-1711-ecea-46e0-c620426fd074",
+    "typeId": 1,
+    "type": "scheduled",
+    "statusId": 4,
+    "status": "PausedSchedule",
+    "categoryId": 11253,
+    "lastRunTime": "2025-02-08T05:58:07.55",
+    "lastRunInstanceId": "e3446ebf-21a7-405a-bca1-afb8bda12f35",
+    "schedule": {
+        "id": "18fffd98-907f-43bd-a526-ea2f3a7bf953",
+        "typeId": 3,
+        "startDate": "2025-02-16T06:09:00",
+        "endDate": "2079-06-06T00:00:00",
+        "scheduledTime": "0001-01-01T07:00:00",
+        "rangeTypeId": 1,
+        "occurrences": 19833,
+        "pattern": "<Pattern><PatternType>0</PatternType><DayInterval>1</DayInterval></Pattern>",
+        "icalRecur": "FREQ=DAILY;UNTIL=20790606T080000;INTERVAL=1",
+        "timezoneName": "W. Europe Standard Time",
+        "scheduleStatus": "paused",
+        "timezoneId": 5
+    },
+    "steps": [
+        {
+            "id": "881788d7-0224-49d9-a0ef-7ca1c1b06beb",
+            "name": "",
+            "step": 1,
+            "activities": [
+                {
+                    "id": "f77386b8-1941-49e4-8d2a-61680a608c7e",
+                    "name": "Contacts and Leads - All Contacts",
+                    "activityObjectId": "4768a1d9-defe-476c-a641-116c1e033425",
+                    "objectTypeId": 300,
+                    "displayOrder": 1,
+                    "targetDataExtensions": [
+                        {
+                            "id": "66a09324-11e6-ef11-ba84-f40343e86d98",
+                            "name": "All Contacts",
+                            "key": "BEF2508D-11F6-4EBA-94AB-C3E804847E6F",
+                            "description": "",
+                            "rowCount": 146
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "4fa7a130-38fd-4e82-b8ed-aacee8a66e17",
+            "name": "",
+            "step": 2,
+            "activities": [
+                {
+                    "id": "cf341313-8e68-4c28-bc36-202fb3d3d082",
+                    "name": "USA Contacts",
+                    "activityObjectId": "00a36e82-314a-4438-91fa-1d14046fb233",
+                    "objectTypeId": 300,
+                    "displayOrder": 1,
+                    "targetDataExtensions": [
+                        {
+                            "id": "af056995-12e6-ef11-ba84-f40343e86d98",
+                            "name": "USA Contacts",
+                            "key": "25A6B682-EED9-4574-BA24-D130C624025F",
+                            "description": "",
+                            "rowCount": 139
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "b0d351c4-69d5-4577-8973-2c9234b9953a",
+            "name": "",
+            "step": 3,
+            "activities": [
+                {
+                    "id": "9187d536-c0f0-408d-947d-80628c8d879c",
+                    "name": "Other Countries Contacts",
+                    "activityObjectId": "9eeb29c1-17d6-4ee2-b40b-ed57f42d6dff",
+                    "objectTypeId": 300,
+                    "displayOrder": 1,
+                    "targetDataExtensions": [
+                        {
+                            "id": "6d15628f-12e6-ef11-ba84-f40343e86d98",
+                            "name": "Other Countries Contacts",
+                            "key": "C6AEB9F4-2732-42E7-8324-BA851FCBBFC1",
+                            "description": "",
+                            "rowCount": 7
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
