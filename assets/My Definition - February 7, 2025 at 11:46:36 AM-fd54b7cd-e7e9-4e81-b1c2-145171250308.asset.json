@@ -1,0 +1,254 @@
+{
+    "id": 145225,
+    "customerKey": "fd54b7cd-e7e9-4e81-b1c2-145171250308",
+    "objectID": "b6e348d3-a564-472b-bf23-3c5d38e877fe",
+    "assetType": {
+        "id": 237,
+        "name": "packagedeployment",
+        "displayName": "packagedeployment"
+    },
+    "name": "My Definition - February 7, 2025 at 11:46:36 AM",
+    "owner": {
+        "id": 737342407,
+        "email": "tugce@eduhub.solutions",
+        "name": "Tu\u011f\u00e7e \u015eirin",
+        "userId": "737342407"
+    },
+    "createdDate": "2025-02-07T04:47:24.317-06:00",
+    "createdBy": {
+        "id": 737342407,
+        "email": "tugce@eduhub.solutions",
+        "name": "Tu\u011f\u00e7e \u015eirin",
+        "userId": "737342407"
+    },
+    "modifiedDate": "2025-02-07T04:47:28.233-06:00",
+    "modifiedBy": {
+        "id": 737342407,
+        "email": "tugce@eduhub.solutions",
+        "name": "Tu\u011f\u00e7e \u015eirin",
+        "userId": "737342407"
+    },
+    "enterpriseId": 536002713,
+    "memberId": 536007311,
+    "status": {
+        "id": 1,
+        "name": "Draft"
+    },
+    "thumbnail": {
+        "thumbnailUrl": "/v1/assets/145225/thumbnail"
+    },
+    "category": {
+        "id": 65641,
+        "name": "Content Builder",
+        "parentId": 0
+    },
+    "availableViews": [],
+    "data": {
+        "status": "DONE",
+        "selectedEntities": {
+            "assets": [],
+            "attributeGroups": [],
+            "automations": [],
+            "cloudPageCollections": [],
+            "dataExtensions": [],
+            "journeys": [
+                "7bcd2604-7170-42f3-9ed6-b85424266a3c"
+            ],
+            "journeyTemplates": [],
+            "sharedDataExtensions": []
+        },
+        "modelVersion": "3",
+        "id": "145225",
+        "name": "My Definition - February 7, 2025 at 11:46:36 AM",
+        "references": {
+            "journeys/7bcd2604-7170-42f3-9ed6-b85424266a3c": [
+                {
+                    "identifier": "eventDefinitions/16b784c5-e5bc-4452-951a-04db6e7af252",
+                    "relationship": "required"
+                },
+                {
+                    "identifier": "assets/128608",
+                    "relationship": "required"
+                },
+                {
+                    "identifier": "categories/11268",
+                    "relationship": "required"
+                }
+            ],
+            "eventDefinitions/16b784c5-e5bc-4452-951a-04db6e7af252": [
+                {
+                    "identifier": "dataExtensions/6d3f797e-589c-ef11-ba84-f40343e86d98",
+                    "relationship": "required"
+                }
+            ],
+            "categories/11268": [],
+            "dataExtensions/6d3f797e-589c-ef11-ba84-f40343e86d98": [
+                {
+                    "identifier": "categories/11228",
+                    "relationship": "required"
+                }
+            ],
+            "categories/11228": [],
+            "assets/128608": [
+                {
+                    "identifier": "categories/11269",
+                    "relationship": "required"
+                }
+            ],
+            "categories/11269": []
+        },
+        "version": 1,
+        "entities": {
+            "assets": {
+                "128608": {
+                    "issues": [],
+                    "status": "SUCCESS",
+                    "id": "145226",
+                    "data": {
+                        "assetType": {
+                            "id": 208,
+                            "name": "htmlemail"
+                        },
+                        "name": "Welcome Email 1",
+                        "category": {
+                            "id": 65641
+                        }
+                    },
+                    "action": {
+                        "type": "create",
+                        "available": true,
+                        "issues": []
+                    }
+                }
+            },
+            "attributeGroups": {},
+            "attributeRelationships": {},
+            "attributeSets": {},
+            "automations": {},
+            "categories": {
+                "11228": {
+                    "issues": [],
+                    "status": "SUCCESS",
+                    "id": "65627",
+                    "data": {
+                        "name": "Data Extensions",
+                        "parentId": 0,
+                        "categoryType": "dataextension",
+                        "editable": 0,
+                        "extendable": 1
+                    },
+                    "action": {
+                        "type": "create",
+                        "available": true,
+                        "issues": []
+                    }
+                },
+                "11268": {
+                    "issues": [],
+                    "status": "SUCCESS",
+                    "id": "65640",
+                    "data": {
+                        "name": "my journeys",
+                        "parentId": 0,
+                        "categoryType": "journey",
+                        "editable": 0,
+                        "extendable": 1
+                    },
+                    "action": {
+                        "type": "create",
+                        "available": true,
+                        "issues": []
+                    }
+                },
+                "11269": {
+                    "issues": [],
+                    "status": "SUCCESS",
+                    "id": "65641",
+                    "data": {
+                        "name": "Content Builder",
+                        "parentId": 0,
+                        "categoryType": "asset",
+                        "editable": 0,
+                        "extendable": 1
+                    },
+                    "action": {
+                        "type": "create",
+                        "available": true,
+                        "issues": []
+                    }
+                }
+            },
+            "cloudPageCollections": {},
+            "codeResources": {},
+            "dataExtensions": {
+                "6d3f797e-589c-ef11-ba84-f40343e86d98": {
+                    "issues": [],
+                    "status": "SUCCESS",
+                    "id": "bad92ee9-40e5-ef11-ba84-f40343e86d98",
+                    "data": {
+                        "name": "Contact Data",
+                        "categoryId": 65627
+                    },
+                    "action": {
+                        "type": "create",
+                        "available": true,
+                        "issues": []
+                    }
+                }
+            },
+            "dataExtractActivities": {},
+            "dataFilterDefinitions": {},
+            "dataFilters": {},
+            "eventDefinitions": {
+                "16b784c5-e5bc-4452-951a-04db6e7af252": {
+                    "issues": [],
+                    "status": "SUCCESS",
+                    "id": "64531e0a-3a70-48b2-8313-001ec2d4c3d6",
+                    "data": {
+                        "name": "New Journey - November 6 2024 at 5.05 PM"
+                    },
+                    "action": {
+                        "type": "create",
+                        "available": true,
+                        "issues": []
+                    }
+                }
+            },
+            "fileTransferActivities": {},
+            "importActivities": {},
+            "journeys": {
+                "7bcd2604-7170-42f3-9ed6-b85424266a3c": {
+                    "issues": [],
+                    "status": "SUCCESS",
+                    "id": "1d90ac73-f6b3-4db7-9fee-c05ef907b389",
+                    "data": {
+                        "name": "New Journey - November 6 2024 at 5.05 PM",
+                        "categoryId": 65640,
+                        "version": 1,
+                        "definitionType": "Multistep"
+                    },
+                    "action": {
+                        "type": "create",
+                        "available": true,
+                        "issues": []
+                    }
+                }
+            },
+            "journeyTemplates": {},
+            "landingPages": {},
+            "microsites": {},
+            "micrositePages": {},
+            "micrositePageVersions": {},
+            "primaryLandingPages": {},
+            "queryActivities": {},
+            "registeredCustomActivities": {},
+            "scriptActivities": {},
+            "sendDefinitions": {},
+            "sharedDataExtensions": {},
+            "siteMapVersions": {},
+            "subscriberLists": {},
+            "verificationActivities": {}
+        }
+    },
+    "modelVersion": 2
+}
