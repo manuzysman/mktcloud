@@ -1,0 +1,43 @@
+{
+    "id": "64531e0a-3a70-48b2-8313-001ec2d4c3d6",
+    "type": "EmailAudience",
+    "name": "New Journey - November 6 2024 at 5.05 PM",
+    "description": "",
+    "createdDate": "2025-02-07T04:47:27.123",
+    "createdBy": 737342407,
+    "modifiedDate": "2025-02-07T04:47:27.123",
+    "modifiedBy": 737342407,
+    "mode": "Production",
+    "eventDefinitionKey": "eventDeffjP4plfDeQYMUJpr",
+    "dataExtensionId": "bad92ee9-40e5-ef11-ba84-f40343e86d98",
+    "dataExtensionName": "Contact Data",
+    "sourceApplicationExtensionId": "97e942ee-6914-4d3d-9e52-37ecb71f79ed",
+    "filterDefinitionId": "00000000-0000-0000-0000-000000000000",
+    "filterDefinitionTemplate": "",
+    "iconUrl": "/images/icon-data-extension.svg",
+    "arguments": {
+        "serializedObjectType": 3,
+        "eventDefinitionId": "64531e0a-3a70-48b2-8313-001ec2d4c3d6",
+        "eventDefinitionKey": "eventDeffjP4plfDeQYMUJpr",
+        "dataExtensionId": "bad92ee9-40e5-ef11-ba84-f40343e86d98",
+        "criteria": "",
+        "useHighWatermark": false,
+        "automationId": "2bdfd86e-7654-4e04-a34c-3a44c74361be"
+    },
+    "configurationArguments": {
+        "unconfigured": false
+    },
+    "metaData": {
+        "scheduleState": "No Schedule",
+        "criteriaDescription": "",
+        "scheduleFlowMode": "runOnce",
+        "runOnceScheduleMode": "onPublish"
+    },
+    "interactionCount": 1,
+    "isVisibleInPicker": false,
+    "isPlatformObject": false,
+    "category": "Audience",
+    "publishedInteractionCount": 0,
+    "automationId": "2689300e-2526-4c7c-800f-398acb4ab22f",
+    "disableDEDataLogging": false
+}

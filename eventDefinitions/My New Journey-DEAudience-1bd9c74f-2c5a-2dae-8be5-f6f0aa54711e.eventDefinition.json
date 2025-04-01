@@ -1,0 +1,39 @@
+{
+    "id": "5c21dd4b-114c-445d-842e-9a9ea1e6f2ba",
+    "type": "EmailAudience",
+    "name": "My New Journey",
+    "description": "",
+    "createdDate": "2025-02-13T23:37:34.207",
+    "createdBy": 737342407,
+    "modifiedDate": "2025-02-13T23:37:34.207",
+    "modifiedBy": 737342407,
+    "mode": "Production",
+    "eventDefinitionKey": "DEAudience-1bd9c74f-2c5a-2dae-8be5-f6f0aa54711e",
+    "dataExtensionId": "bad92ee9-40e5-ef11-ba84-f40343e86d98",
+    "dataExtensionName": "Contact Data",
+    "sourceApplicationExtensionId": "97e942ee-6914-4d3d-9e52-37ecb71f79ed",
+    "filterDefinitionId": "00000000-0000-0000-0000-000000000000",
+    "filterDefinitionTemplate": "",
+    "iconUrl": "/images/icon-data-extension.svg",
+    "arguments": {
+        "serializedObjectType": 3,
+        "eventDefinitionId": "5c21dd4b-114c-445d-842e-9a9ea1e6f2ba",
+        "eventDefinitionKey": "DEAudience-1bd9c74f-2c5a-2dae-8be5-f6f0aa54711e",
+        "dataExtensionId": "bad92ee9-40e5-ef11-ba84-f40343e86d98",
+        "criteria": ""
+    },
+    "configurationArguments": {
+        "unconfigured": true
+    },
+    "metaData": {
+        "criteriaDescription": "",
+        "scheduleState": "No Schedule"
+    },
+    "interactionCount": 1,
+    "isVisibleInPicker": false,
+    "isPlatformObject": false,
+    "category": "Audience",
+    "publishedInteractionCount": 0,
+    "automationId": "de5094d5-f341-4ac5-9c56-acf425ded7d5",
+    "disableDEDataLogging": false
+}
